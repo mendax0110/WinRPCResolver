@@ -1,0 +1,14 @@
+# Ignore the Build folder
+build/
+
+# Ignore the .vs folder
+.vs
+
+# Ignore the .vscode folder
+.vscode
+
+# Ignore the .idea folder
+.idea
+
+# Ignore the .DS_Store file
+.DS_Store
