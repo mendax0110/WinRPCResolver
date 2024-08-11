@@ -1,5 +1,6 @@
 #include "../../include/ResolveWindows.h"
 #include <rpcdce.h>
+#include <rpc.h>
 #include <fstream>
 
 #pragma comment(lib, "Rpcrt4.lib")

@@ -13,4 +13,3 @@ set (WIN_SOURCES
 )
 
 add_executable(${PROJECT_NAME} ${WIN_INCLUDES} ${WIN_SOURCES})
-

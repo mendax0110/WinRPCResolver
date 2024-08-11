@@ -136,14 +136,10 @@ int main(int argc, char* argv[])
     std::vector<std::wstring> directories = {
         L"C:\\Windows\\System32",
         L"C:\\Windows\\SysWOW64",
-        L"C:\\Program Files",
-        L"C:\\Program Files (x86)",
         L"C:\\Windows\\System32\\drivers",
         L"C:\\Windows\\System32\\wbem",
         L"C:\\Windows\\SysWOW64\\drivers",
         L"C:\\Windows\\SysWOW64\\wbem",
-        L"C:\\Program Files\\Common Files",
-        L"C:\\Program Files (x86)\\Common Files"
     };
 
     size_t maxDllNum = 0;
