@@ -30,14 +30,12 @@ public:
     RpcMonitor(const RpcServersConfig& config);
     
     /*!
-     *
-     *
+     * @brief Start the RPC monitor
      */
     void start();
     
     /*!
-     *
-     *
+     * @brief Stop the RPC monitor
      */
     void stop();
     

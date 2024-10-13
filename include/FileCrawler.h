@@ -40,7 +40,11 @@ public:
      */
     bool endsWith(const std::string& str, const std::string& suffix);
 
-
+    /*!
+     * @brief Get the error message for a specific error code
+     * @param errorCode The error code
+     * @return std::string The error message
+     */
     std::string getErrorMessage(DWORD errorCode);
 
 private:
