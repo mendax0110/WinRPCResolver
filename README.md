@@ -34,7 +34,7 @@ cmake --build .
 
 ## Usage
 ```bash
-WinRPCResolver.exe
+WinRPCResolver.exe --gui
 ```
 
 ## Supported Platforms
