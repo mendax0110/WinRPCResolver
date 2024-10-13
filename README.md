@@ -12,22 +12,26 @@ git clone https://github.com/mendax0110/WinRPCResolver.git
 cd WinRPCResolver
 ```
 
-3. Create the build directory
+3. Initialize the submodules
+```bash
+git submodule update --init --recursive
+
+4. Create the build directory
 ```bash
 mkdir build
 ```
 
-4. Change directory to the build directory
+5. Change directory to the build directory
 ```bash
 cd build
 ```
 
-5. Build CMake files
+6. Build CMake files
 ```bash
 cmake ..
 ```
 
-6. Build the project
+7. Build the project
 ```bash
 cmake --build .
 ```
