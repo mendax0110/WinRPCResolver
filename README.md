@@ -15,7 +15,7 @@ cd WinRPCResolver
 3. Initialize the submodules
 ```bash
 git submodule update --init --recursive
-
+```
 4. Create the build directory
 ```bash
 mkdir build
